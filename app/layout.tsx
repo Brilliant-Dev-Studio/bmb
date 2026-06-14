@@ -82,9 +82,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/newSocialmediasharing.png",
-        width: 3020,
-        height: 1726,
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
         alt: "BMB Entertainment Co., Ltd — Media, Advertising & Events in Myanmar",
       },
     ],
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
-    images: ["/newSocialmediasharing.png"],
+    images: ["/og-image.png"],
   },
   icons: {
     icon: [
