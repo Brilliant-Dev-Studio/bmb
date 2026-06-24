@@ -50,8 +50,8 @@ function GetInTouch({ className = "" }: { className?: string }) {
       href="#contact"
       className={`relative overflow-hidden rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:brightness-110 active:scale-95 ${className}`}
       style={{
-        background: "linear-gradient(180deg, #228a45 0%, #1A6B35 50%, #145229 100%)",
-        boxShadow: "0 0 12px 2px rgba(26,107,53,0.35), 0 2px 6px rgba(26,107,53,0.25)",
+        background: "linear-gradient(180deg, #2756C5 0%, #1A3A8F 50%, #0E2260 100%)",
+        boxShadow: "0 0 12px 2px rgba(26,58,143,0.35), 0 2px 6px rgba(26,58,143,0.25)",
       }}
     >
       {/* Gloss shine overlay */}

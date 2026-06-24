@@ -2,7 +2,7 @@
 
 import CircularText from "./CircularText";
 
-const letterColor = () => "#1A6B35";
+const letterColor = () => "#1A3A8F";
 
 export default function BrandBadge() {
   return (

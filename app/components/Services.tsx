@@ -16,42 +16,42 @@ const SERVICES: {
     desc: "Strategic media placement across TV, digital, and print channels — reaching the right audience at the right time.",
     icon: BarChart3,
     pattern: "circles",
-    accent: "#1A6B35",
+    accent: "#1A3A8F",
   },
   {
     title: "Advertising",
     desc: "Creative, impact-driven advertising campaigns designed to elevate your brand and deliver measurable results.",
     icon: Megaphone,
     pattern: "dots",
-    accent: "#228a45",
+    accent: "#2756C5",
   },
   {
     title: "Branding",
     desc: "Comprehensive brand identity development — from visual design to messaging — that makes your business stand out.",
     icon: Palette,
     pattern: "grid",
-    accent: "#145229",
+    accent: "#0E2260",
   },
   {
     title: "Event Management",
     desc: "End-to-end event planning and execution, from corporate conferences to large-scale public events.",
     icon: CalendarCheck,
     pattern: "waves",
-    accent: "#1A6B35",
+    accent: "#1A3A8F",
   },
   {
     title: "TV Commercial",
     desc: "Professional TV advertisement production that captures attention and communicates your brand story powerfully.",
     icon: TvMinimalPlay,
     pattern: "diagonal",
-    accent: "#228a45",
+    accent: "#2756C5",
   },
   {
     title: "Live Stream Production",
     desc: "High-quality live broadcast shows and streaming productions that connect your brand with audiences in real time.",
     icon: Radio,
     pattern: "rings",
-    accent: "#145229",
+    accent: "#0E2260",
   },
 ];
 
@@ -129,7 +129,7 @@ export default function Services() {
             const Icon = s.icon;
             return (
               <Reveal key={s.title} delay={i * 60}>
-                <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foreground/8 bg-white p-6 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(26,107,53,0.1)] sm:p-8">
+                <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foreground/8 bg-white p-6 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(26,58,143,0.1)] sm:p-8">
                   {/* SVG pattern bg */}
                   <div className="pointer-events-none absolute inset-0 opacity-100 transition-opacity duration-500 group-hover:opacity-60">
                     <PatternBg type={s.pattern} color={s.accent} />

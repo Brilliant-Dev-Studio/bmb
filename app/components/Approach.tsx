@@ -62,8 +62,8 @@ export default function Approach() {
                   href="#services"
                   className="relative overflow-hidden rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-all hover:brightness-110"
                   style={{
-                    background: "linear-gradient(180deg,#228a45 0%,#1A6B35 50%,#145229 100%)",
-                    boxShadow: "0 0 12px 2px rgba(26,107,53,0.3)",
+                    background: "linear-gradient(180deg,#2756C5 0%,#1A3A8F 50%,#0E2260 100%)",
+                    boxShadow: "0 0 12px 2px rgba(26,58,143,0.3)",
                   }}
                 >
                   <span aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-1/2 rounded-t-full bg-gradient-to-b from-white/25 to-transparent" />
@@ -83,7 +83,7 @@ export default function Approach() {
                     key={s.num}
                     type="button"
                     onClick={() => setOpen(isOpen ? null : i)}
-                    className="group w-full rounded-2xl border border-foreground/8 bg-white px-6 py-5 text-left transition-all duration-300 hover:border-brand-blue/20 hover:shadow-[0_4px_20px_rgba(26,107,53,0.07)]"
+                    className="group w-full rounded-2xl border border-foreground/8 bg-white px-6 py-5 text-left transition-all duration-300 hover:border-brand-blue/20 hover:shadow-[0_4px_20px_rgba(26,58,143,0.07)]"
                   >
                     <div className="flex items-center justify-between gap-4">
                       <span className="font-heading text-base font-semibold text-foreground sm:text-lg">
@@ -93,9 +93,9 @@ export default function Approach() {
                         className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white transition-all duration-300"
                         style={{
                           background: isOpen
-                            ? "linear-gradient(180deg,#228a45 0%,#1A6B35 50%,#145229 100%)"
-                            : "linear-gradient(180deg,#228a45 0%,#1A6B35 50%,#145229 100%)",
-                          boxShadow: isOpen ? "0 0 10px 2px rgba(26,107,53,0.35)" : "none",
+                            ? "linear-gradient(180deg,#2756C5 0%,#1A3A8F 50%,#0E2260 100%)"
+                            : "linear-gradient(180deg,#2756C5 0%,#1A3A8F 50%,#0E2260 100%)",
+                          boxShadow: isOpen ? "0 0 10px 2px rgba(26,58,143,0.35)" : "none",
                         }}
                       >
                         {isOpen ? <Minus className="h-4 w-4" /> : <Plus className="h-4 w-4" />}

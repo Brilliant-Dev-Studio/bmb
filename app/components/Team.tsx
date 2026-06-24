@@ -9,19 +9,19 @@ const PILLARS: { title: string; desc: string; icon: LucideIcon; gradient: string
     title: "Always Up-to-Date",
     desc: "We continuously update our skills with the latest trending technologies across media, advertising, and production.",
     icon: RefreshCw,
-    gradient: "from-[#228a45]/10 via-[#1A6B35]/5 to-transparent",
+    gradient: "from-[#2756C5]/10 via-[#1A3A8F]/5 to-transparent",
   },
   {
     title: "Certified Professionals",
     desc: "Every team member holds relevant industry certificates, ensuring world-class standards in every project we deliver.",
     icon: BadgeCheck,
-    gradient: "from-[#145229]/10 via-[#1A6B35]/5 to-transparent",
+    gradient: "from-[#0E2260]/10 via-[#1A3A8F]/5 to-transparent",
   },
   {
     title: "Unity & Responsibility",
     desc: "The BMB team moves forward together — each person fulfilling their role with full responsibility and dedication.",
     icon: Users,
-    gradient: "from-[#228a45]/10 via-[#1A6B35]/5 to-transparent",
+    gradient: "from-[#2756C5]/10 via-[#1A3A8F]/5 to-transparent",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Team() {
             const Icon = p.icon;
             return (
               <Reveal key={p.title} delay={i * 80}>
-                <div className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foreground/8 bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(26,107,53,0.1)] sm:p-8">
+                <div className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-foreground/8 bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(26,58,143,0.1)] sm:p-8">
 
                   {/* gradient blob top-right */}
                   <div className={`pointer-events-none absolute -right-8 -top-8 h-40 w-40 rounded-full bg-radial ${p.gradient} blur-2xl transition-opacity duration-500 group-hover:opacity-70`} />
